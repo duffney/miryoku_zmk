@@ -1,9 +1,0 @@
-/*
- * Disable SPI3 (RGB underglow) to prevent pin conflict with nice!view.
- * The corne shield enables SPI3 MOSI on P0.06, which is the same pin
- * the nice_view_adapter uses as CS for the display.
- */
-
-&spi3 {
-    status = "disabled";
-};
