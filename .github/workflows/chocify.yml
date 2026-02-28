@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Chocify'
+name: "Chocify"
 on: workflow_dispatch
 jobs:
   build:
@@ -10,5 +10,5 @@ jobs:
     with:
       alphas: '["Canary"]'
       layers: '["Default"]'
-      board: '["nice_nano"]'
+      board: '["nice_nano//zmk"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
